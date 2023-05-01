@@ -1,0 +1,361 @@
+
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+/* Página de início*/
+@media screen and (min-width:0px){  
+    .cor{
+        background-color:black;
+        color: aliceblue; 
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+}
+@media screen and (min-width:480px){
+    .cor{
+        background-color:skyblue;
+        color: rgb(0, 0, 0);  
+
+    }
+}
+@media screen and (min-width:600px){
+    .cor{
+        background-color:lightgreen;
+        color: rgb(0, 0, 0);  
+    }
+}
+@media screen and (min-width:768px){
+    .cor{
+        background-color:lightyellow;
+        color: rgb(0, 0, 0);  
+    }
+}
+@media screen and (min-width:800px){
+    .cor{
+        background-color:brown;
+        color: aliceblue;  
+    }
+}
+@media screen and (min-width:1024px){
+    .cor{
+        background-color:darkblue;
+        color: aliceblue; 
+ 
+    }
+}
+@media screen and (min-width:1280px){
+    .cor{
+        background-color:darkgreen;
+        color: aliceblue; 
+
+    }
+}
+@media screen and (min-width:1440px){
+    .cor{
+        background-color:darkred;
+        color: aliceblue;  
+
+    }
+}
+/*Fim da página de início*/
+
+
+/*Páginas das seleções*/
+@media screen and (min-width:0px) and (max-width:480px) {
+    #Selecao{
+        background:lightgreen;
+    }
+
+    .Selecao {
+        display: flex;
+        flex-direction: column;
+    }
+    .Titulo {
+        display: flex;
+        margin-left: 35%;
+            
+    }
+            
+                
+    .Selecoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:navy;
+        text-align: justify;
+            
+        }
+            
+    .Informacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Nome{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+            
+    .Box1 {
+        display: flex;
+        position: relative;
+    }
+    .Box1 p {
+        text-align: justify;
+        top: 145px;
+        right: 20px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+            
+            
+    .Box2 {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .Bandeira {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+                
+    .Brasao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    #Selecao{
+        background:lightgreen;
+    }
+
+    .Selecao {
+        display: flex;
+        flex-direction: column;
+    }
+    .Titulo {
+        display: flex;
+        margin-left: 35%;
+            
+    }
+            
+                
+    .Selecoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:navy;
+        text-align: justify;
+            
+        }
+            
+    .Informacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Nome{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+            
+    .Box1 {
+        display: flex;
+        position: relative;
+    }
+    .Box1 p {
+        text-align: justify;
+        top: 145px;
+        right: 20px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+            
+            
+    .Box2 {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .Bandeira {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+                
+    .Brasao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (min-width:769px) and (max-width:1279px) {
+    #Selecao{
+        background: linear-gradient(lightgreen 50%, skyblue 50%);
+    }
+
+    .Titulo {
+    display: flex;
+    margin-left: 35%;
+    
+    }
+    
+         
+    .Selecoes {
+        float: left;
+        width: 30%;
+        color:navy;
+        text-align: justify;
+        width: 250px;
+        float:left;
+         
+    }
+    
+    .Informacoes {
+        margin-left: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Nome{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    
+    .Box1 {
+        display: flex;
+        position: relative;
+    }
+      .Box1 p {
+        text-align: justify;
+        top: 145px;
+        right: 20px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    
+    
+    .Box2 {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    .Bandeira {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        
+    .Brasao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    
+}
+
+@media screen and (min-width:1280px) {
+    #Selecao{
+        background-image: url("Fundo.JPG");
+        background-size: 100%;
+    }
+    .Titulo {
+    display: flex;
+    margin-left: 35%;
+    
+    }
+    
+    .Selecao {
+        display: table;
+    }
+
+         
+    .Selecoes {
+        float: left;
+        width: 30%;
+        color:navy;
+        text-align: justify;
+        width: 250px;
+    }
+    
+
+    .Informacoes {
+        margin-left: 15%;
+        display: flex;
+    }
+    .Nome{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    
+    .Box1 {
+        display: flex;
+        position: relative;
+    }
+      .Box1 p {
+        text-align: justify;
+        top: 145px;
+        right: 20px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    .Box2 {
+        display: flex;
+    }
+    .Bandeira {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    .Brasao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+
+header{
+    background:rgb(3, 3, 39);
+    margin-top: -1%;
+    color: aquamarine;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+button{
+    background:gray;
+    border-radius: 8px; 
+    width: 200px; 
+    cursor: pointer; 
+    color: #fff; 
+    font-size: 16px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
